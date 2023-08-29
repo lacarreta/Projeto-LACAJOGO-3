@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{212C281F-D323-414B-6854-4A5D176DB301}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5157737a-b78e-4559-8aee-969c0292e99c" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoadSceneOnCollision.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Playerhub.cs" />
+      <File FileName="Assets/Scripts/LoadSceneOnCollision.cs" Line="11" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LACAJOGO3" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
