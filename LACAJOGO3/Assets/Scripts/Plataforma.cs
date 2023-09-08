@@ -12,9 +12,6 @@ public class Plataforma : MonoBehaviour
         {
             transform.Translate(0f, Input.GetAxis("Vertical") * Speed * Time.deltaTime, 0f);
         }
-        else
-        {
-            transform.Translate(0f, Input.GetAxis("Vertical2") * Speed * Time.deltaTime, 0f);
-        }
+       
     }
 }
