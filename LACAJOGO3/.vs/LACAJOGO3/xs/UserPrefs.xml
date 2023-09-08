@@ -6,14 +6,21 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="90ca8a2e-99eb-4d2d-afa2-2368cdcf7b2a" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PONG/Bola.cs">
+    <Files>
+      <File FileName="Assets/Scripts/HUB/Playerhub.cs" Line="31" Column="10" />
+      <File FileName="Assets/Scripts/AchievItem.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/AchievementsControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PONG/Bola.cs" Line="33" Column="2" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LACAJOGO3" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="DialogControl.cs" selected="True" />
+                <Node name="HUB" expanded="True" />
+                <Node name="PONG" expanded="True" />
               </Node>
             </Node>
           </Node>

@@ -16,9 +16,18 @@ public class Bola : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void OnTriggerEnter(Collider col)
     {
-        
+        AchievItem item = col.GetComponent<AchievItem>();
+
+        if (item != null)
+        {
+            AchievementsControl.instance.SetAchiement(item, true);
+        }
+        if (col.CompareTag("chave"))
+        {
+            Destroy(col.gameObject);
+        }
     }
 }
