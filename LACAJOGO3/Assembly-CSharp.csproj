@@ -56,12 +56,12 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/DialogControl.cs" />
-    <Compile Include="Assets/Scripts/Playerhub.cs" />
-    <Compile Include="Assets/Scripts/Plataforma.cs" />
-    <Compile Include="Assets/Scripts/LoadSceneOnCollision.cs" />
-    <Compile Include="Assets/Scripts/Bola.cs" />
-    <Compile Include="Assets/Scripts/DialogItem.cs" />
+    <Compile Include="Assets/Scripts/HUB/DialogItem.cs" />
+    <Compile Include="Assets/Scripts/HUB/DialogControl.cs" />
+    <Compile Include="Assets/Scripts/HUB/Playerhub.cs" />
+    <Compile Include="Assets/Scripts/PONG/Plataforma.cs" />
+    <Compile Include="Assets/Scripts/HUB/LoadSceneOnCollision.cs" />
+    <Compile Include="Assets/Scripts/PONG/Bola.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
