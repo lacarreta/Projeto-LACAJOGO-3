@@ -353,6 +353,7 @@
 "Assets/Scripts/HUB/DialogItem.cs"
 "Assets/Scripts/HUB/LoadSceneOnCollision.cs"
 "Assets/Scripts/HUB/Playerhub.cs"
+"Assets/Scripts/MenuPrincipalManager.cs"
 "Assets/Scripts/PONG/Bola.cs"
 "Assets/Scripts/PONG/Plataforma.cs"
 -langversion:9.0
