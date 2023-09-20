@@ -350,14 +350,16 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/AchievementsControl.cs"
-"Assets/Scripts/HUB/AchievItem.cs"
+"Assets/Scripts/AchievItem.cs"
 "Assets/Scripts/HUB/DialogControl.cs"
 "Assets/Scripts/HUB/DialogItem.cs"
 "Assets/Scripts/HUB/LoadSceneOnCollision.cs"
 "Assets/Scripts/HUB/Playerhub.cs"
 "Assets/Scripts/MenuPrincipalManager.cs"
+"Assets/Scripts/Playercrossing.cs"
 "Assets/Scripts/PONG/Bola.cs"
-"Assets/Scripts/PONG/Plataforma.cs"
+"Assets/Scripts/PONG/EnemyController.cs"
+"Assets/Scripts/PONG/Playerpong.cs"
 -langversion:9.0
 
 /deterministic

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pong
   - chave
+  - enemy
   layers:
   - Default
   - TransparentFX

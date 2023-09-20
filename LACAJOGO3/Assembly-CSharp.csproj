@@ -58,13 +58,15 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/AchievementsControl.cs" />
     <Compile Include="Assets/Scripts/HUB/DialogItem.cs" />
-    <Compile Include="Assets/Scripts/HUB/AchievItem.cs" />
+    <Compile Include="Assets/Scripts/AchievItem.cs" />
     <Compile Include="Assets/Scripts/HUB/DialogControl.cs" />
     <Compile Include="Assets/Scripts/HUB/Playerhub.cs" />
-    <Compile Include="Assets/Scripts/PONG/Plataforma.cs" />
     <Compile Include="Assets/Scripts/MenuPrincipalManager.cs" />
     <Compile Include="Assets/Scripts/HUB/LoadSceneOnCollision.cs" />
     <Compile Include="Assets/Scripts/PONG/Bola.cs" />
+    <Compile Include="Assets/Scripts/PONG/EnemyController.cs" />
+    <Compile Include="Assets/Scripts/PONG/Playerpong.cs" />
+    <Compile Include="Assets/Scripts/Playercrossing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -726,9 +728,17 @@
       <Project>{761490BF-ACF0-F732-9697-CA560DDA9726}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{3E5F65C4-29AA-499E-376F-38F1423E39A3}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{EC8841F2-7FC0-4034-0AE2-50C6C4AF50A4}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{4EF2AE89-A5F8-2790-FEE0-E2AC730BA685}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{B13B912E-7734-77EF-99B8-51F512041D23}</Project>

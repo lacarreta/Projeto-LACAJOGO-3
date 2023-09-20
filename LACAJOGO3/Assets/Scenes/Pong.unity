@@ -958,7 +958,7 @@ GameObject:
   - component: {fileID: 1622284329}
   m_Layer: 0
   m_Name: BossPong
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1035,7 +1035,7 @@ Transform:
   m_GameObject: {fileID: 1622284324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.97, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 4.69, z: 1}
+  m_LocalScale: {x: 0.5, y: 2.004975, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1050,11 +1050,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1622284324}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c6f0ec97c7e46469f841e9c9d86ffd, type: 3}
+  m_Script: {fileID: 11500000, guid: cf8c26221e87f49c8ad9123c6ed6628b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 8
-  IsRight: 0
+  ball: {fileID: 1830472037}
+  moveSpeed: 7
+  failProbability: 0
 --- !u!1 &1669780424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,11 +1163,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1669780424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4c6f0ec97c7e46469f841e9c9d86ffd, type: 3}
+  m_Script: {fileID: 11500000, guid: 192b5c425065c4434bc66101eaac5cc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 8
-  IsRight: 1
+  speed: 9
 --- !u!1 &1830472033
 GameObject:
   m_ObjectHideFlags: 0
