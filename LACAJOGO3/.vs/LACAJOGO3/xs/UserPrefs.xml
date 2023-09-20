@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{212C281F-D323-414B-6854-4A5D176DB301}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MenuPrincipalManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AchievementsControl.cs">
     <Files>
       <File FileName="Assets/Scripts/HUB/Playerhub.cs" />
-      <File FileName="Assets/Scripts/AchievementsControl.cs" />
+      <File FileName="Assets/Scripts/AchievementsControl.cs" Line="29" Column="1" />
       <File FileName="Assets/Scripts/PONG/Bola.cs" />
-      <File FileName="Assets/Scripts/MenuPrincipalManager.cs" Line="32" Column="28" />
+      <File FileName="Assets/Scripts/MenuPrincipalManager.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,6 +14,7 @@
               <Node name="Scripts" expanded="True">
                 <Node name="HUB" expanded="True" />
                 <Node name="PONG" expanded="True" />
+                <Node name="AchievementsControl.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -21,11 +22,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9e01d1d0-f740-4292-86ff-f06f91b553b8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="833c0036-bd69-4817-aab3-d554eaf2c78e" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
