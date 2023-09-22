@@ -3,25 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Playercrossing : MonoBehaviour
+
 {
-    public float moveSpeed = 5f; 
-    private Vector3 targetPosition;
+    public float speed = 6.0f;
 
-    private void Start()
+    void Update()
     {
-        targetPosition = transform.position; 
-    }
-
-    private void Update()
-    {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-
-        if (Mathf.Abs(horizontalInput) > 0.1f || Mathf.Abs(verticalInput) > 0.1f)
-        {
-            
-            targetPosition = transform.position + new Vector3(horizontalInput, verticalInput, 0f);
-        }
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+        float x = Input.GetAxis("Horizontal");
+        float y = Input.GetAxis("Vertical") + 0.9f;
+        Vector3 dir = new Vector3(x, 0, y) * Time.deltaTime * speed;
+        transform.Translate(dir);
     }
 }

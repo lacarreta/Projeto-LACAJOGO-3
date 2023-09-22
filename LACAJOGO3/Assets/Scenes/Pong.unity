@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   achievements: 0000000000
+  achievementImage: {fileID: 0}
 --- !u!4 &73771137
 Transform:
   m_ObjectHideFlags: 0
@@ -356,8 +357,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420358197}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.77, y: -4, z: 0}
-  m_LocalScale: {x: 1, y: 4.03, z: 1}
+  m_LocalPosition: {x: 10, y: -4, z: 0}
+  m_LocalScale: {x: 1.6125, y: 4.03, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -510,7 +511,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737730305}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -658,8 +659,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755652364}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.73, y: 4, z: 0}
-  m_LocalScale: {x: 1, y: 4.03, z: 1}
+  m_LocalPosition: {x: -9.9, y: 4, z: 0}
+  m_LocalScale: {x: 1.6125, y: 4.03, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -839,8 +840,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462232425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.73, y: -4, z: 0}
-  m_LocalScale: {x: 1, y: 4.03, z: 1}
+  m_LocalPosition: {x: -9.9, y: -4, z: 0}
+  m_LocalScale: {x: 1.6125, y: 4.03, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -936,8 +937,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534126769}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.77, y: 4, z: 0}
-  m_LocalScale: {x: 1, y: 4.03, z: 1}
+  m_LocalPosition: {x: 10, y: 4, z: 0}
+  m_LocalScale: {x: 1.6125, y: 4.03, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1055,7 +1056,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1830472037}
   moveSpeed: 7
-  failProbability: 0
 --- !u!1 &1669780424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,7 +1071,7 @@ GameObject:
   - component: {fileID: 1669780429}
   m_Layer: 0
   m_Name: PlayerPong
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1278,7 +1278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3e4ff1c6db904a2088d76d4f74649c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 7
+  Speed: 10
 --- !u!54 &1830472039
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1328,6 +1328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
+  pickupSound: {fileID: 0}
 --- !u!65 &1930516065
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1653,7 +1654,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131141911}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

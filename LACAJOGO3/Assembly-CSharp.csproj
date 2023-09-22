@@ -57,16 +57,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/AchievementsControl.cs" />
+    <Compile Include="Assets/Scripts/Playercrossing.cs" />
+    <Compile Include="Assets/Scripts/PONG/Playerpong.cs" />
     <Compile Include="Assets/Scripts/HUB/DialogItem.cs" />
     <Compile Include="Assets/Scripts/AchievItem.cs" />
     <Compile Include="Assets/Scripts/HUB/DialogControl.cs" />
     <Compile Include="Assets/Scripts/HUB/Playerhub.cs" />
     <Compile Include="Assets/Scripts/MenuPrincipalManager.cs" />
-    <Compile Include="Assets/Scripts/HUB/LoadSceneOnCollision.cs" />
-    <Compile Include="Assets/Scripts/PONG/Bola.cs" />
+    <Compile Include="Assets/Scripts/LoadSceneOnCollision.cs" />
     <Compile Include="Assets/Scripts/PONG/EnemyController.cs" />
-    <Compile Include="Assets/Scripts/PONG/Playerpong.cs" />
-    <Compile Include="Assets/Scripts/Playercrossing.cs" />
+    <Compile Include="Assets/Scripts/PONG/Bola.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

@@ -5,16 +5,16 @@ using UnityEngine;
 public class Playerpong : MonoBehaviour
 {
     public float speed;
+
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        transform.Translate(h * speed * Time.deltaTime, v * speed * Time.deltaTime, 0);
+        transform.Translate(0, v * speed * Time.deltaTime, 0);
     }
 
     private void OnTriggerEnter(Collider col)
@@ -29,7 +29,5 @@ public class Playerpong : MonoBehaviour
         {
             Destroy(col.gameObject);
         }
-
-
     }
 }
