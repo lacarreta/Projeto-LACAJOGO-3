@@ -5,16 +5,20 @@ using UnityEngine;
 public class Playerhub : MonoBehaviour
 {
     public float speed;
+    Rigidbody rb;
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        transform.Translate(h * speed * Time.deltaTime, v * speed * Time.deltaTime, 0);
+        //transform.Translate(h * speed * Time.deltaTime, v * speed * Time.deltaTime, 0);
+        Vector3 dir = Vector3.right * h + Vector3.up * v;
+        rb.velocity = dir * speed; 
+
     }
 
     private void OnTriggerEnter(Collider col)
