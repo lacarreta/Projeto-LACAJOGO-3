@@ -15,7 +15,6 @@ public class Playerhub : MonoBehaviour
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        //transform.Translate(h * speed * Time.deltaTime, v * speed * Time.deltaTime, 0);
         Vector3 dir = Vector3.right * h + Vector3.up * v;
         rb.velocity = dir * speed; 
 
