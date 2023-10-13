@@ -1,12 +1,6 @@
 ﻿<Properties StartupConfiguration="{212C281F-D323-414B-6854-4A5D176DB301}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PONG/Playerpong.cs">
-    <Files>
-      <File FileName="Assets/Scripts/PONG/EnemyController.cs" />
-      <File FileName="Assets/Scripts/AchievementsControl.cs" />
-      <File FileName="Assets/Scripts/PONG/Playerpong.cs" Line="38" Column="2" />
-      <File FileName="Assets/Scripts/HUB/Playerhub.cs" Line="18" Column="8" />
-      <File FileName="Assets/Scripts/AchievItem.cs" />
-    </Files>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -15,7 +9,7 @@
               <Node name="Scripts" expanded="True">
                 <Node name="HUB" expanded="True" />
                 <Node name="PONG" expanded="True">
-                  <Node name="Playerpong.cs" selected="True" />
+                  <Node name="EnemyController.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -24,11 +18,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5f571feb-e934-4b51-84d0-6b19547e35af" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1b290e57-2dcf-4735-add7-e3de1b2766cd" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
