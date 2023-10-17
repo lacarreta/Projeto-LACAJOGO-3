@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Playerhub : MonoBehaviour
+public class Playerpong : MonoBehaviour
 {
     public float speed;
     Rigidbody rb;
@@ -13,10 +13,10 @@ public class Playerhub : MonoBehaviour
 
     void Update()
     {
-        float h = Input.GetAxis("Horizontal");
+        
         float v = Input.GetAxis("Vertical");
-        Vector3 dir = Vector3.right * h + Vector3.up * v;
-        rb.velocity = dir * speed;
+        Vector3 dir = Vector3.up * v;
+        rb.velocity = dir * speed; 
 
     }
 
