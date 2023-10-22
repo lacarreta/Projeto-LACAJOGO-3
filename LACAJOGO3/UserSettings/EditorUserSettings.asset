@@ -7,6 +7,7 @@ EditorUserSettings:
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 5004045153060c080b5b542445775c124e4f4e792a7f72322c7d4b36e1e3353d
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -32,6 +33,18 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-8:
       value: 0107025553045b5d540f5c7742770c484616197e28717166297d1f35b5e6606e
+=======
+      value: 51550d5301535e020e5b5c7312770d49154f1d2c7b7e75662c2f1837b3e16460
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 5002060307010d5f585e5424407708484116197e7f2d22697f701860b5b1376b
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 0708045f54070b025c5c5e27137707154f4e1b73757072662e794560e1b5636e
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+>>>>>>> parent of 2810b489 (maze)
 =======
       value: 51550d5301535e020e5b5c7312770d49154f1d2c7b7e75662c2f1837b3e16460
       flags: 0

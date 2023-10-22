@@ -23,10 +23,13 @@ AssetImportWorker1
 Logs/AssetImportWorker1.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 56481
 Successfully changed project path to: /Users/marcelolacarretta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3
 /Users/marcelolacarretta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3
 =======
+=======
+>>>>>>> parent of 2810b489 (maze)
 51533
 Successfully changed project path to: /Users/lacarreta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3
 /Users/lacarreta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3
@@ -63,12 +66,20 @@ Successfully changed project path to: /Users/lacarreta/Documents/GitHub/Projeto-
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [7924388608] Host "[IP] 192.168.5.94 [Port] 0 [Flags] 2 [Guid] 1530269079 [EditorId] 1530269079 [Version] 1048832 [Id] OSXEditor(0,LaCaMacAir.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [7924388608] Host "[IP] 192.168.5.94 [Port] 0 [Flags] 2 [Guid] 1530269079 [EditorId] 1530269079 [Version] 1048832 [Id] OSXEditor(0,LaCaMacAir.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 9.41 ms, found 2 plugins.
+=======
+Player connection [4673869312] Host "[IP] 192.168.100.35 [Port] 0 [Flags] 2 [Guid] 1382435382 [EditorId] 1382435382 [Version] 1048832 [Id] OSXEditor(0,LaCaMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4673869312] Host "[IP] 192.168.100.35 [Port] 0 [Flags] 2 [Guid] 1382435382 [EditorId] 1382435382 [Version] 1048832 [Id] OSXEditor(0,LaCaMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 113.84 ms, found 2 plugins.
+>>>>>>> parent of 2810b489 (maze)
 =======
 Player connection [4673869312] Host "[IP] 192.168.100.35 [Port] 0 [Flags] 2 [Guid] 1382435382 [EditorId] 1382435382 [Version] 1048832 [Id] OSXEditor(0,LaCaMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -578,6 +589,9 @@ Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 18 unused Assets / (138.6 KB). Loaded Objects now: 3709.
 Memory consumption went from 109.8 MB to 109.6 MB.
 Total: 4.551431 ms (FindLiveObjects: 0.442125 ms CreateObjectMapping: 0.173607 ms MarkObjects: 3.785311 ms  DeleteObjects: 0.149012 ms)
+<<<<<<< HEAD
+>>>>>>> parent of 2810b489 (maze)
+=======
 >>>>>>> parent of 2810b489 (maze)
 
 Prepare: number of updated asset objects reloaded= 0

@@ -23,10 +23,13 @@ AssetImportWorker0
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 56481
 Successfully changed project path to: /Users/marcelolacarretta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3
 /Users/marcelolacarretta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3
 =======
+=======
+>>>>>>> parent of 2810b489 (maze)
 51533
 Successfully changed project path to: /Users/lacarreta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3
 /Users/lacarreta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3
@@ -63,12 +66,20 @@ Successfully changed project path to: /Users/lacarreta/Documents/GitHub/Projeto-
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [7924388608] Host "[IP] 192.168.5.94 [Port] 0 [Flags] 2 [Guid] 2712954085 [EditorId] 2712954085 [Version] 1048832 [Id] OSXEditor(0,LaCaMacAir.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [7924388608] Host "[IP] 192.168.5.94 [Port] 0 [Flags] 2 [Guid] 2712954085 [EditorId] 2712954085 [Version] 1048832 [Id] OSXEditor(0,LaCaMacAir.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 9.47 ms, found 2 plugins.
+=======
+Player connection [4465546752] Host "[IP] 192.168.100.35 [Port] 0 [Flags] 2 [Guid] 3996258268 [EditorId] 3996258268 [Version] 1048832 [Id] OSXEditor(0,LaCaMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4465546752] Host "[IP] 192.168.100.35 [Port] 0 [Flags] 2 [Guid] 3996258268 [EditorId] 3996258268 [Version] 1048832 [Id] OSXEditor(0,LaCaMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 113.84 ms, found 2 plugins.
+>>>>>>> parent of 2810b489 (maze)
 =======
 Player connection [4465546752] Host "[IP] 192.168.100.35 [Port] 0 [Flags] 2 [Guid] 3996258268 [EditorId] 3996258268 [Version] 1048832 [Id] OSXEditor(0,LaCaMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -281,6 +292,9 @@ Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (159.0 KB). Loaded Objects now: 3694.
 Memory consumption went from 111.3 MB to 111.1 MB.
 Total: 4.710932 ms (FindLiveObjects: 0.365218 ms CreateObjectMapping: 0.143618 ms MarkObjects: 3.911298 ms  DeleteObjects: 0.289692 ms)
+<<<<<<< HEAD
+>>>>>>> parent of 2810b489 (maze)
+=======
 >>>>>>> parent of 2810b489 (maze)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -298,6 +312,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   Time since last request: 5231.602038 seconds.
   path: Assets/Scripts
@@ -324,6 +339,8 @@ Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 =======
+=======
+>>>>>>> parent of 2810b489 (maze)
   Time since last request: 20146.864489 seconds.
   path: Assets/Scenes/00 Menu.unity
   artifactKey: Guid(332eb4dd508f04787aa43ed929e371c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -344,6 +361,7 @@ Start importing Assets/Scripts/HUB/Playerhub.cs using Guid(265e60e7eb73c41d89b12
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.002321 seconds.
+<<<<<<< HEAD
 >>>>>>> parent of 2810b489 (maze)
 Begin MonoManager ReloadAssembly
 Thread 0x17f6ef000 may have been prematurely finalized
@@ -651,6 +669,13 @@ Unloading 24 unused Assets / (102.2 KB). Loaded Objects now: 3860.
 Memory consumption went from 154.9 MB to 154.8 MB.
 Total: 2.252000 ms (FindLiveObjects: 0.126583 ms CreateObjectMapping: 0.045167 ms MarkObjects: 2.039625 ms  DeleteObjects: 0.040125 ms)
 =======
+=======
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/lacarreta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/lacarreta/Documents/GitHub/Projeto-LACAJOGO-3/LACAJOGO3/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+>>>>>>> parent of 2810b489 (maze)
 Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -688,6 +713,9 @@ Unloading 3212 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 18 unused Assets / (138.7 KB). Loaded Objects now: 3709.
 Memory consumption went from 113.9 MB to 113.8 MB.
 Total: 5.016760 ms (FindLiveObjects: 0.456644 ms CreateObjectMapping: 0.201266 ms MarkObjects: 4.198335 ms  DeleteObjects: 0.159209 ms)
+<<<<<<< HEAD
+>>>>>>> parent of 2810b489 (maze)
+=======
 >>>>>>> parent of 2810b489 (maze)
 
 Prepare: number of updated asset objects reloaded= 0

@@ -1,6 +1,10 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/Maze.unity
+=======
+- path: Assets/Scenes/Pong.unity
+>>>>>>> parent of 2810b489 (maze)
 =======
 - path: Assets/Scenes/Pong.unity
 >>>>>>> parent of 2810b489 (maze)

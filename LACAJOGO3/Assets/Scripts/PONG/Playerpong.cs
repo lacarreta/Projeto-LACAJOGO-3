@@ -14,11 +14,16 @@ public class Playerpong : MonoBehaviour
     void Update()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         float v = Input.GetAxis("Vertical");
         Vector3 dir = Vector3.up * v;
         rb.velocity = dir * speed; 
 
+=======
+        float v = Input.GetAxis("Vertical");
+        transform.Translate(0, v * speed * Time.deltaTime, 0);
+>>>>>>> parent of 2810b489 (maze)
 =======
         float v = Input.GetAxis("Vertical");
         transform.Translate(0, v * speed * Time.deltaTime, 0);

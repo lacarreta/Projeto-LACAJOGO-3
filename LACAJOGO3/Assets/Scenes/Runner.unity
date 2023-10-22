@@ -228,10 +228,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   sceneName: 01 Casa
   respawnX: 0
   respawnY: 0
   respawnZ: 0
+=======
+  sceneName: HUB
+>>>>>>> parent of 2810b489 (maze)
 =======
   sceneName: HUB
 >>>>>>> parent of 2810b489 (maze)
@@ -662,10 +666,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   sceneName: 03 LA
   respawnX: 0
   respawnY: 0
   respawnZ: 0
+=======
+  sceneName: HUB
+>>>>>>> parent of 2810b489 (maze)
 =======
   sceneName: HUB
 >>>>>>> parent of 2810b489 (maze)
@@ -824,10 +832,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   sceneName: 01 Casa
   respawnX: 0
   respawnY: 0
   respawnZ: 0
+=======
+  sceneName: HUB
+>>>>>>> parent of 2810b489 (maze)
 =======
   sceneName: HUB
 >>>>>>> parent of 2810b489 (maze)
@@ -982,10 +994,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   sceneName: 01 Casa
   respawnX: 0
   respawnY: 0
   respawnZ: 0
+=======
+  sceneName: HUB
+>>>>>>> parent of 2810b489 (maze)
 =======
   sceneName: HUB
 >>>>>>> parent of 2810b489 (maze)
