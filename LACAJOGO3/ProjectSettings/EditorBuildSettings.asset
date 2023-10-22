@@ -9,13 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/00 Menu.unity
     guid: 332eb4dd508f04787aa43ed929e371c3
   - enabled: 1
-    path: Assets/Scenes/01 Casa.unity
-    guid: f551cc636601a403b8e57218ddf37d69
-  - enabled: 1
-    path: Assets/Scenes/02 CA.unity
-    guid: c10d3992af33947f9b20eb2427be8aed
-  - enabled: 1
-    path: Assets/Scenes/03 LA.unity
+    path: Assets/Scenes/HUB.unity
     guid: d90912b9122ec48e99c99846c083c576
   - enabled: 1
     path: Assets/Scenes/Pong.unity
@@ -23,7 +17,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Runner.unity
     guid: 2d95df79c501b429c8ef7636afed1a08
-  - enabled: 1
-    path: Assets/Scenes/Maze.unity
-    guid: b663612f9a0524380aa4d976d4bf7f46
   m_configObjects: {}

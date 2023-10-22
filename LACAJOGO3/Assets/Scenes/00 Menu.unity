@@ -1620,7 +1620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 700489fe0cc8844a699215b5f23b18f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeDoLevelDeJogo: 01 Casa
+  nomeDoLevelDeJogo: HUB
   painelMenuInicial: {fileID: 1638023243}
   painelOpcoes: {fileID: 1817377569}
 --- !u!4 &1214431635

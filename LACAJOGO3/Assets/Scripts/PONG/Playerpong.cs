@@ -5,19 +5,24 @@ using UnityEngine;
 public class Playerpong : MonoBehaviour
 {
     public float speed;
-    Rigidbody rb;
+
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+
     }
 
     void Update()
     {
+<<<<<<< HEAD
         
         float v = Input.GetAxis("Vertical");
         Vector3 dir = Vector3.up * v;
         rb.velocity = dir * speed; 
 
+=======
+        float v = Input.GetAxis("Vertical");
+        transform.Translate(0, v * speed * Time.deltaTime, 0);
+>>>>>>> parent of 2810b489 (maze)
     }
 
     private void OnTriggerEnter(Collider col)
@@ -32,7 +37,5 @@ public class Playerpong : MonoBehaviour
         {
             Destroy(col.gameObject);
         }
-
-
     }
 }
